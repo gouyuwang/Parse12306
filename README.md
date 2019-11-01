@@ -4,19 +4,7 @@
 * 开发工具：Visual Studio 2013
 * 语言：C#
 * 其他Library：Json.NET
-
-## 概述
-最近着手做全国高铁的App。  
-计划绘制一张全国高铁车站的线路图，可以直接在图上点选，提供多种换乘和搜索方式等等。  
-于是问题来了：“如何获取全国高速列车的数据”。  
-本程序就是介绍如何从12306网站抓取全国高速列车的数据。项目包含了所有数据抓取和数据解析的C#源代码，以及最终做成的Excel文档。
-
-之前做过全国地铁的App：“地铁通-MetroMan”。  
-[iOS下载](https://itunes.apple.com/cn/app/de-tie-tong-metroman/id466351433?mt=8)　　[Android下载](https://play.google.com/store/apps/details?id=com.xinlukou.metroman&hl=zh)  
-
-后续会将地铁App和高铁App全部开源出来。  
-
-
+ 
 ## 具体步骤
 1. 从12306下载车站信息
 2. 解析车站信息
@@ -98,12 +86,4 @@ C1002 1    延吉西  ----    6:20     ----     TRUE
 步骤1--步骤7的中间文件没有放到项目文件夹里面。
 步骤8的Excel文件可以在项目文件夹中找到。“全国高速列车时刻表_20160310.xlsx”
 
-## 祝你好运
-玩得开心，也请记得给我反馈。如果您发现了什么 bug (这简直是必然的)，请直接指出，如果还能附带一个 pull request 修正的话，那真的感激万分！
-
-欢迎加颗星星或者 follow 我一下以示支持，这将对我和我的项目的发展提供不可估量的帮助。再次感谢。
-
-E-Mail : metromancn@gmail.com
-
-## 许可
-MIT License
+## 祝你好运 
